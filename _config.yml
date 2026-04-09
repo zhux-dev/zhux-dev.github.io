@@ -16,7 +16,7 @@ future: true                                                       #发布未来
 RSS: false
 weibo_username:     5629222395
 zhihu_username:     leng-xiao-bing-63
-github_username:    Lengxiaobing
+github_username:    zhux-dev
 jianshu_username:   f5acf99d021c
 gitbook_username:   lengxiaobing
 gitee_username:     lengxiaobing
@@ -60,16 +60,16 @@ kramdown:
 
 # 评论系统
 # Disqus settings（https://disqus.com/）
-#disqus_username: 冷小冰
+# disqus_username: 冷小冰
 
 # Gitalk
 gitalk:
   enable: true                                              #是否开启Gitalk评论
   clientID: 3cee51d0a832088f7db7                            #生成的clientID
   clientSecret: 1e82ac7a879bd6c75dc9b2b5b93f17b3a37faf0d    #生成的clientSecret
-  repo: lengxiaobing.github.io                              #仓库名称
-  owner: Lengxiaobing                                       #github用户名
-  admin: Lengxiaobing
+  repo: zhux-dev.github.io                                  #仓库名称
+  owner: zhux-dev                                           #github用户名
+  admin: zhux-dev
   distractionFreeMode: true                                 #是否启用类似FB的阴影遮罩
 
 # Netease settings
