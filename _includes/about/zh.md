@@ -8,8 +8,6 @@ Hey，我是**冷小冰**，一只Java程序猿，现在南京工作。
 这是我的利用[GitHub Pages](https://pages.github.com/)与[jekyll](http://jekyll.com.cn/")搭建的个人博客。
 我的[👉GitHub](https://github.com/zhux-dev/zhux-dev.github.io.git)主页。如果有什么问题，欢迎提出探讨~
 
-
-
 ##### Talks
 
 - [GitHub](https://github.com/zhux-dev)
