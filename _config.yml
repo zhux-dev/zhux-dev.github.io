@@ -4,22 +4,22 @@ SEOTitle: 冷小冰的博客 | Bing Blog                                   # 显
 header-img: img/post-bg-coffee.jpeg                                # 显示在首页的背景图片
 email: tn787681084@gmail.com                                       # 邮箱地址
 description: "Every failure is leading towards success."           # 网站介绍
-keyword: "BY, BY Bing, 冷小冰的博客, lengxiaobing, 冷小冰, Java"     # 关键词
-url: "https://zhux-dev.github.io/"                             # 博客的地址
+keyword: "BY, BY Bing, 冷小冰的博客, lengxiaobing, 冷小冰, Java"      # 关键词
+url: "https://zhux-dev.github.io/"                                 # 博客的地址
 baseurl: ""                                                        # 博客的托管地址
-github_repo: "https://github.com/zhux-dev/zhux-dev.github.io.git" # git代码仓库
+github_repo: "https://github.com/zhux-dev/zhux-dev.github.io.git"  # git代码仓库
 
 # Publish posts or collection documents with a future date.
 future: true                                                       #发布未来日期的文档。
 
 # SNS settings
 RSS: false
-weibo_username:     5629222395
-zhihu_username:     leng-xiao-bing-63
-github_username:    zhux-dev
-jianshu_username:   f5acf99d021c
-gitbook_username:   lengxiaobing
-gitee_username:     lengxiaobing
+weibo_username: 5629222395
+zhihu_username: leng-xiao-bing-63
+github_username: zhux-dev
+jianshu_username: f5acf99d021c
+gitbook_username: lengxiaobing
+gitee_username: lengxiaobing
 #twitter_username:
 #facebook_username:
 #linkedin_username:
@@ -28,7 +28,7 @@ gitee_username:     lengxiaobing
 # Build settings
 permalink: pretty
 paginate: 10
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+exclude: [ "less","node_modules","Gruntfile.js","package.json","README.md" ]
 anchorjs: true                          # 如果想自定义anchor。查看post.html的181行
 # 如果在中国有时区问题（例如＃68），请取消注释以使用此选项：
 timezone: Asia/Shanghai
@@ -38,7 +38,7 @@ timezone: Asia/Shanghai
 # from PR#40, to support local preview for Jekyll 3.0
 # make sure you have this gem installed
 # `$ gem install jekyll-paginate`
-plugins: [jekyll-paginate]
+plugins: [ jekyll-paginate ]
 
 
 # Markdown settings
@@ -107,16 +107,16 @@ page-mathjax: false
 
 # Friends
 friends: [
-{
-  title: "简书",
-  href: "http://www.jianshu.com"
-},
-{
-  title: "码云",
-  href: "https://gitee.com"
-},
-{
-  title: "GitHub",
-  href: "https://github.com"
-}
+  {
+    title: "简书",
+    href: "https://www.jianshu.com"
+  },
+  {
+    title: "码云",
+    href: "https://gitee.com"
+  },
+  {
+    title: "GitHub",
+    href: "https://github.com"
+  }
 ]
