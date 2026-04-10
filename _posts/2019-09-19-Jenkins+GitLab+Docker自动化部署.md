@@ -4,7 +4,7 @@ title:      Jenkins+GitLab+Docker自动化部署
 subtitle:   Jenkins+GitLab+Docker自动化部署
 date:       2019-09-19
 author:     冷小冰
-header-img: img/post-bg-debug.png
+header-img: assets/img/post-bg-debug.png
 catalog: true
 tags:
     - Jenkins
@@ -99,11 +99,11 @@ systemctl start jenkins
 
 **全局工具配置**
 
-![](/img/docs-pics/20190919151047.png)
+![](/assets/img/doc-img/20190919151047.png)
 
 **全局安全配置**
 
-![](/img/docs-pics/20190919151441.png)
+![](/assets/img/doc-img/20190919151441.png)
 
 - 其他说明
 	- jenkins 工作目录：/var/lib/jenkins/workspace
@@ -118,7 +118,7 @@ systemctl start jenkins
 
 **开启本地webhook**
 
-![](/img/docs-pics/1568874079918.png)
+![](/assets/img/doc-img/1568874079918.png)
 
 ## 自动化部署
 
@@ -128,25 +128,25 @@ systemctl start jenkins
 
 - Jenkins配置流水线
 
-![](/img/docs-pics/20190919152237.png)
+![](/assets/img/doc-img/20190919152237.png)
 
 - 构建触发器
 
 > JENKINS_URL：表示Jenkins的ip和端口号；TOKEN_NAME：表示身份验证令牌
 
-![](/img/docs-pics/1568877886466.png)
+![](/assets/img/doc-img/1568877886466.png)
 
 - 流水线配置
 
-![](/img/docs-pics/20190919152957.png)
+![](/assets/img/doc-img/20190919152957.png)
 
 - gitlab项目webhook配置
 
 > 在项目设置的集成配置里面，设置webhook的url。
 
-![](/img/docs-pics/1568878326326.png)
+![](/assets/img/doc-img/1568878326326.png)
 
-![](/img/docs-pics/20190919153552.png)
+![](/assets/img/doc-img/20190919153552.png)
 
 ## Jenkinsfile
 

@@ -4,7 +4,7 @@ title:      kubeadm部署kubernetes高可用集群-VIP版
 subtitle:   KeepAlive+VIP的形式完成高可用
 date:       2019-06-04
 author:     冷小冰
-header-img: img/post-bg-debug.png
+header-img: assets/img/post-bg-debug.png
 catalog: true
 tags:
     - Docker
@@ -17,11 +17,11 @@ tags:
 
 **stacked control plane nodes**架构图
 
-![](/img/docs-pics/kubernetes-stacked.png)
+![](/assets/img/doc-img/kubernetes-stacked.png)
 
 **external etcd cluster**架构图
 
-![](/img/docs-pics/kubernetes-external.png)
+![](/assets/img/doc-img/kubernetes-external.png)
 
 ## 一.环境准备
 
@@ -697,7 +697,7 @@ kubectl create -f dashboard-rbac.yaml
 kubectl describe secret admin -n kube-system
 ```
 
-  ![](/img/docs-pics/1546851753513.png)
+  ![](/assets/img/doc-img/1546851753513.png)
 
 ##### 2.5.8.3.登录页面
 

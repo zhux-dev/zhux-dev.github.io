@@ -22,19 +22,19 @@
 </footer>
 
 <!-- jQuery -->
-<script src="{{ '/js/jquery.min.js' | prepend: site.baseurl }}"></script>
+<script src="{{ '/assets/js/jquery.min.js' | prepend: site.baseurl }}"></script>
 
 <!-- Bootstrap Core JavaScript -->
 <!-- Currently, only navbar scroll-down effect at desktop still depends on this -->
-<script src="{{'/js/bootstrap.min.js' | prepend: site.baseurl }}"></script>
+<script src="{{'/assets/js/bootstrap.min.js' | prepend: site.baseurl }}"></script>
 
 <!-- Custom Theme JavaScript -->
-<script src="{{ '/js/blog.min.js' | prepend: site.baseurl }}"></script>
+<script src="{{ '/assets/js/blog.min.js' | prepend: site.baseurl }}"></script>
 
 <!-- Service Worker -->
 {% if site.service-worker %}
-<script src="{{ '/js/snackbar.js' | prepend: site.baseurl }}"></script>
-<script src="{{ '/js/sw-registration.js' | prepend: site.baseurl }}"></script>
+<script src="{{ '/assets/js/snackbar.js' | prepend: site.baseurl }}"></script>
+<script src="{{ '/assets/js/sw-registration.js' | prepend: site.baseurl }}"></script>
 {% endif %}
 
 <!-- async load function -->
@@ -75,7 +75,7 @@
 {% if page.title == 'Tags' or page.title == 'Archive'%}
 <!-- jquery.tagcloud.js -->
 <script>
-    async("{{ '/js/jquery.tagcloud.js' | prepend: site.baseurl }}", function () {
+    async("{{ '/assets/js/jquery.tagcloud.js' | prepend: site.baseurl }}", function () {
         $.fn.tagcloud.defaults = {
             //size: {start: 1, end: 1, unit: 'em'},
             color: {start: '#bbbbee', end: '#2f93b4'},
@@ -83,7 +83,7 @@
         $('#tag_cloud a').tagcloud();
     })
 </script>
-<script src="{{ '/js/tags.js' | prepend: site.baseurl }}"></script>
+<script src="{{ '/assets/js/tags.js' | prepend: site.baseurl }}"></script>
 {% endif %}
 
 <!--fastClick.js -->
@@ -182,7 +182,7 @@
      * Doc: https://github.com/davist11/jQuery-One-Page-Nav
      * Fork by Hux to support padding
      */
-    async("{{ '/js/jquery.nav.js' | prepend: site.baseurl }}", function () {
+    async("{{ '/assets/js/jquery.nav.js' | prepend: site.baseurl }}", function () {
         $('.catalog-body').onePageNav({
             currentClass: "active",
             changeHash: !1,

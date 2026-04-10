@@ -4,7 +4,7 @@ title:      k8s+Docker部署Spring Cloud微服务
 subtitle:   k8s+Docker部署Spring Cloud微服务
 date:       2019-04-29
 author:     冷小冰
-header-img: img/post-bg-debug.png
+header-img: assets/img/post-bg-debug.png
 catalog: true
 tags:
     - Kubernetes

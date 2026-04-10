@@ -4,7 +4,7 @@ title:      kubeadm部署kubernetes单主集群
 subtitle:   kubeadm部署kubernetes单主集群
 date:       2019-01-02
 author:     冷小冰
-header-img: img/post-bg-debug.png
+header-img: assets/img/post-bg-debug.png
 catalog: true
 tags:
     - Docker
@@ -401,7 +401,7 @@ kubeadm init --pod-network-cidr=10.244.0.0/16 --kubernetes-version=v1.13.0 --api
   -  若执行**kubeadm init**出错或强制终止，则再需要执行该命令时，需要先执行**kubeadm reset**重置。
 
 **注意，记录下如下信息**
-![](/img/docs-pics/docker01.png)
+![](/assets/img/doc-img/docker01.png)
 
 5.要使kubectl为非root用户工作，请运行以下命令
 
@@ -520,7 +520,7 @@ kubectl get service -n kube-system -o wide
 
 - 记录下端口号，打开页面时需要用到。
 
-![](/img/docs-pics/docker02.png)
+![](/assets/img/doc-img/docker02.png)
 
 ### 5.3.创建用户
 
@@ -563,7 +563,7 @@ kubectl create -f dashboard-rbac.yaml
 kubectl describe secret admin  -n kube-system
 ```
 
-  ![](/img/docs-pics/docker03.png)
+  ![](/assets/img/doc-img/docker03.png)
 
 ### 5.5.登录页面
   - 打开连接（**火狐**）： https://192.168.3.30:30001

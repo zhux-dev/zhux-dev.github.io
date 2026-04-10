@@ -4,7 +4,7 @@ title:      使用docker搭建GitLab环境
 subtitle:   使用docker搭建GitLab环境
 date:       2019-04-22
 author:     冷小冰
-header-img: img/post-bg-debug.png
+header-img: assets/img/post-bg-debug.png
 catalog: true
 tags:
     - Docker

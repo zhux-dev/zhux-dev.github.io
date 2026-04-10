@@ -4,7 +4,7 @@ title:      Confluent搭建教程
 subtitle:   Confluent
 date:       2019-02-23
 author:     冷小冰
-header-img: img/post-bg-debug.png
+header-img: assets/img/post-bg-debug.png
 catalog: true
 tags:
     - Confluent
@@ -554,7 +554,7 @@ Confluent Hub客户端是一个命令行工具，可以轻松地将[Confluent Hu
   ```shell
 confluent-hub install confluentinc/kafka-connect-mqtt:1.1.0-preview
   ```
-![](/img/docs-pics/confluent01.png)
+![](/assets/img/doc-img/confluent01.png)
 2. 导航到MQTT配置文件目录`/usr/share/confluent-hub-components/confluentinc-kafka-connect-mqtt/etc/source-anonymous.properties`，修改如下内容:
   ```shell
 #

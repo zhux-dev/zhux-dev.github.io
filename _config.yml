@@ -1,7 +1,7 @@
 # Site settings
 title: 冷小冰的博客                                                  # 博客的标题
 SEOTitle: 冷小冰的博客 | Bing Blog                                   # 显示在浏览器上搜索的时候显示的标题
-header-img: img/post-bg-coffee.jpeg                                # 显示在首页的背景图片
+header-img: assets/img/post-bg-coffee.jpeg                         # 显示在首页的背景图片
 email: tn787681084@gmail.com                                       # 邮箱地址
 description: "Every failure is leading towards success."           # 网站介绍
 keyword: "BY, BY Bing, 冷小冰的博客, lengxiaobing, 冷小冰, Java"      # 关键词
@@ -86,9 +86,9 @@ ga_domain: auto                          # 自定义的域名，默认的是 aut
 
 
 # Sidebar settings
-sidebar: true                           # 是否使用侧边栏
+sidebar: true                                  # 是否使用侧边栏
 sidebar-about-description: "You make my heart smile<br>衣带渐宽终不悔，为伊消得人憔悴"
-sidebar-avatar: /img/avatar-05.jpg      # 侧边栏头像图片
+sidebar-avatar: /assets/img/avatar-05.jpg      # 侧边栏头像图片
 
 
 # Featured Tags
