@@ -73,6 +73,7 @@ layout: default
                 <!-- Gitalk link  -->
                 <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
                 <script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
+                <script src="/assets/js/crypto.js"></script>
 
                 <div id="gitalk-container"></div>
                 <script type="text/javascript">
@@ -83,7 +84,7 @@ layout: default
                         owner: '{{site.gitalk.owner}}',
                         admin: ['{{site.gitalk.admin}}'],
                         distractionFreeMode: '{{site.gitalk.distractionFreeMode}}',
-                        id: 'about',
+                        id: CryptoJS.MD5(window.location.pathname),
                     });
                     gitalk.render('gitalk-container');
                 </script>
