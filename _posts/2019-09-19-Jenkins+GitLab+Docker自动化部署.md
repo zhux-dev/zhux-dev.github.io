@@ -50,11 +50,11 @@ sed -i '/ swap / s/^/#/' /etc/fstab
 
 ## Docker
 
-安装步骤参见：[安装docker](https://lengxiaobing.github.io/2019/01/02/kubeadm部署kubernetes单主集群/#二安装docker)
+安装步骤参见：[安装docker]({% link _posts/2019-01-02-kubeadm部署kubernetes单主集群.md %})
 
 ## Harbor
 
-安装步骤参见：[安装Harbor](https://lengxiaobing.github.io/2019/01/02/kubeadm部署kubernetes单主集群/#32企业级私有仓库)
+安装步骤参见：[安装Harbor]({% link _posts/2019-01-02-kubeadm部署kubernetes单主集群.md %})
 
 ## Jenkins
 
@@ -112,7 +112,7 @@ systemctl start jenkins
 
 ### 安装
 
-安装步骤参见：[使用docker搭建GitLab环境](https://lengxiaobing.github.io/2019/04/22/使用docker搭建GitLab环境/)
+安装步骤参见：[使用docker搭建GitLab环境]({% link _posts/2019-04-22-使用docker搭建GitLab环境.md %})
 
 ### 配置
 
