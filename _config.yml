@@ -81,7 +81,7 @@ netease_comment: false
 ba_track_id: 149be18c48923b451984c0406f32d816
 
 # Google Analytics
-ga_track_id: 'UA-135067536-1'            # Format: UA-xxxxxx-xx
+ga_track_id: 'G-GEKK3TV4D2'              # Format: G-xxxxxx
 ga_domain: auto                          # 自定义的域名，默认的是 auto
 
 
